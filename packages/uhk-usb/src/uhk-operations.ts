@@ -1,4 +1,4 @@
-import { LeftModuleInfo, LogService, RightModuleInfo, UhkBuffer } from 'uhk-common';
+import { Buffer, LeftModuleInfo, LogService, RightModuleInfo, UhkBuffer } from 'uhk-common';
 import { DataOption, KBoot, Properties, UsbPeripheral } from 'kboot';
 
 import {

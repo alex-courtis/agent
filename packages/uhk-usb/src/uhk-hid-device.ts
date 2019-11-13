@@ -2,7 +2,7 @@ import { Device, devices, HID } from 'node-hid';
 import { pathExists } from 'fs-extra';
 import * as path from 'path';
 import { platform } from 'os';
-import { CommandLineArgs, DeviceConnectionState, HalvesInfo, isEqualArray, LogService, UdevRulesInfo } from 'uhk-common';
+import { Buffer, CommandLineArgs, DeviceConnectionState, HalvesInfo, isEqualArray, LogService, UdevRulesInfo } from 'uhk-common';
 
 import {
     ConfigBufferId,
